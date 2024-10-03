@@ -10,7 +10,6 @@ const App = () => {
   //handling submit of an event
   const handleSubmit = (e) => {
     e.preventDefault();
-
     if (todo !== "") {
       setTodos([{ id: `${todo}-${Date.now()}`, todo }, ...todos]);
       setTodo("");

@@ -1,7 +1,7 @@
 import React from "react";
 
 //list after adding the todos
-const TodoList = ({ todos, handleDelete }) => {
+const TodoList = ({ todos, handleDelete}) => {
   return (
     <ul className="allTodos">
       {todos.map((key) => (
